@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    background-color: #2F4F30;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.card-container {
+    height: 250px;
+    border: 1px solid  #213b22;
+    background-color: #f0f0f0;
+    background-color: rgba(201, 218, 202, .4);
+}
+
+.game-card:first-child {
+    margin-left: 0;
+}
+
+.game-card {
+    margin-left: -75px;
+}
+
+.game-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: all ease .5s;
+    margin-right: 75px;
+}
